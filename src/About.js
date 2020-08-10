@@ -149,7 +149,7 @@ data-aos-easing="ease-in-out"className="rect">
           </div>
         </div>
 
-      // <div className="button"></div>
+      <div className="button"></div>
      
       <Nav />
       <ProjectFooter />
