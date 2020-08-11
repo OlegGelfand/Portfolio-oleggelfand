@@ -32,7 +32,7 @@ function About() {
   const items = [
     {
       src:
-        "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306955/IMG_3245_k6y6zu.jpg",
+        "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591980778/IMG_0391_k4yahl.jpg",
       altText: "Slide 1",
       caption: "Slide 1",
       header: "Slide 1 Header",
@@ -41,7 +41,31 @@ function About() {
     },
     {
       src:
-        "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306946/IMG_3659_xe92gr.jpg",
+        "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591980778/IMG_0389_isafrr.jpg",
+      altText: "Slide 2",
+      caption: "Slide 2",
+      header: "Slide 2 Header",
+      key: "2",
+    },
+    {
+      src:
+        "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591980778/IMG_0389_isafrr.jpg",
+      altText: "Slide 2",
+      caption: "Slide 2",
+      header: "Slide 2 Header",
+      key: "2",
+    },
+    {
+      src:
+        "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591980778/IMG_0389_isafrr.jpg",
+      altText: "Slide 2",
+      caption: "Slide 2",
+      header: "Slide 2 Header",
+      key: "2",
+    },
+    {
+      src:
+        "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591980778/IMG_0389_isafrr.jpg",
       altText: "Slide 2",
       caption: "Slide 2",
       header: "Slide 2 Header",
@@ -56,33 +80,33 @@ function About() {
       key: "3",
     },
   ];
-  //   const items2 = [
-  //     {
-  //       src:
-  //         "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306955/IMG_3245_k6y6zu.jpg",
-  //       altText: "Slide 1",
-  //       caption: "Slide 1",
-  //       header: "Slide 1 Header",
-  //       hieght: 2,
-  //       key: "1",
-  //     },
-  //     {
-  //       src:
-  //         "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306946/IMG_3659_xe92gr.jpg",
-  //       altText: "Slide 2",
-  //       caption: "Slide 2",
-  //       header: "Slide 2 Header",
-  //       key: "2",
-  //     },
-  //     {
-  //       src:
-  //         "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306884/IMG_3239_rh0yqi.jpg",
-  //       altText: "Slide 3",
-  //       caption: "Slide 3",
-  //       header: "Slide 3 Header",
-  //       key: "3",
-  //     },
-  //   ];
+    const items2 = [
+      {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306955/IMG_3245_k6y6zu.jpg",
+        altText: "Slide 1",
+        caption: "Slide 1",
+        header: "Slide 1 Header",
+        hieght: 2,
+        key: "1",
+      },
+      {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306946/IMG_3659_xe92gr.jpg",
+        altText: "Slide 2",
+        caption: "Slide 2",
+        header: "Slide 2 Header",
+        key: "2",
+      },
+      {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306884/IMG_3239_rh0yqi.jpg",
+        altText: "Slide 3",
+        caption: "Slide 3",
+        header: "Slide 3 Header",
+        key: "3",
+      },
+    ];
 
   return (
     <div>
@@ -140,14 +164,15 @@ function About() {
                 {" "}
                 <h1 className="about-button">Hobbies</h1>{" "}
               </button>
-              {display1 ? <UncontrolledCarousel items={items} /> : null}
-              <p>
+              
+              <p className="paragraph">
                 Sint voluptate proident dolor esse aliquip aliqua non duis.
                 Labore eiusmod nulla irure id sunt veniam sit dolore incididunt
                 consequat est ad laboris. Duis nostrud et aliqua id et duis.
                 Ullamco irure eiusmod laboris est elit labore. Duis ipsum dolor
                 esse commodo consectetur Lorem ex elit reprehenderit.
               </p>
+              {display1 ? <UncontrolledCarousel items={items} /> : null}
             </div>
             <div data-aos="zoom-in" className="rect">
            
@@ -156,14 +181,15 @@ function About() {
               >
                 <h1 className="about-button">Family</h1>{" "}
               </button>
-              {display2 ? <UncontrolledCarousel items={items} /> : null}
-              <p>
+              
+              <p className="paragraph">
                 Sint voluptate proident dolor esse aliquip aliqua non duis.
                 Labore eiusmod nulla irure id sunt veniam sit dolore incididunt
                 consequat est ad laboris. Duis nostrud et aliqua id et duis.
                 Ullamco irure eiusmod laboris est elit labore. Duis ipsum dolor
                 esse commodo consectetur Lorem ex elit reprehenderit.
               </p>
+              {display2 ? <UncontrolledCarousel items={items2} /> : null}
             </div>
           </div>
         </div>

@@ -978,12 +978,12 @@ img>.d-block{
   
 }
 .rect>p{
-  padding-top:50px;
+  /* padding-top:50px; */
   background-color: rgba(0, 0, 0, 0.5);
-  margin-left:700px;
+  /* margin-left:700px; */
   margin-right:10px;
   margin-bottom:10px;
-  min-height:80px;
+  min-height:600px;
 }
 .about-button{
   background-color: orange;
@@ -1000,4 +1000,7 @@ img>.d-block{
 }
 .d-block { 
   width:50px;
+}
+.paragraph{
+  position: relative;
 }
