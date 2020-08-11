@@ -83,27 +83,75 @@ function About() {
     const items2 = [
       {
         src:
-          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306955/IMG_3245_k6y6zu.jpg",
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306946/IMG_3659_xe92gr.jpg",
         altText: "Slide 1",
-        caption: "Slide 1",
-        header: "Slide 1 Header",
-        hieght: 2,
+        caption: "5 yrs old",
+        header: "Yitzi",
         key: "1",
       },
       {
         src:
-          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306946/IMG_3659_xe92gr.jpg",
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1597181892/IMG_3980_to9cvl.jpg",
+        altText: "Slide 1",
+        caption: "our precious first born",
+        header: "Yitzi",
+        key: "1",
+      },
+      {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1597179796/IMG_4407_b4wh7g.jpg",
+        altText: "Slide 1",
+        caption: "sweetest. kindest boy in the world",
+        header: "Yitzi",
+        key: "1",
+      },
+      {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306955/IMG_3245_k6y6zu.jpg",
         altText: "Slide 2",
-        caption: "Slide 2",
-        header: "Slide 2 Header",
+        caption: "3 years old",
+        header: "Sara",
+        hieght: 2,
+        key: "2",
+      },
+      {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1597181892/IMG_3953_xfzk3e.jpg",
+        altText: "Slide 2",
+        caption: "Daddys girl (I hope)",
+        header: "Sara",
+        hieght: 2,
+        key: "2",
+      },
+      {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1597179796/IMG_4336_f6wam6.jpg",
+        altText: "Slide 2",
+        caption: "nurturing, strong, unbeatable",
+        header: "Sara",
+        hieght: 2,
         key: "2",
       },
       {
         src:
           "https://res.cloudinary.com/dkng1fqtz/image/upload/v1591306884/IMG_3239_rh0yqi.jpg",
         altText: "Slide 3",
-        caption: "Slide 3",
-        header: "Slide 3 Header",
+        caption: "1yr old",
+        header: "Pinny",
+        key: "3",
+      },   {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1597179796/IMG_4216_w80h8f.jpg",
+        altText: "Slide 3",
+        caption: "our cuddly one",
+        header: "Pinny",
+        key: "3",
+      },   {
+        src:
+          "https://res.cloudinary.com/dkng1fqtz/image/upload/v1597181891/IMG_3835_zw1lfz.jpg",
+        altText: "Slide 3",
+        caption: "like eating candy without the side affects",
+        header: "Pinny",
         key: "3",
       },
     ];
@@ -122,21 +170,16 @@ function About() {
               <img
                 width="75%"
                 className="left"
-                src="https://res.cloudinary.com/dkng1fqtz/image/upload/v1584115531/IMG_0103_tu9xon.jpg"
+                src="https://res.cloudinary.com/dkng1fqtz/image/upload/v1597179796/IMG_4163_f2chnv.jpg"
                 alt="8"
               ></img>
               <img
                 width="75%"
-                src="https://res.cloudinary.com/dkng1fqtz/image/upload/v1584115531/IMG_0103_tu9xon.jpg"
+                src="https://res.cloudinary.com/dkng1fqtz/image/upload/v1597179796/IMG_4106_eovuyo.jpg"
                 className="right"
                 alt="11"
               ></img>
-              Thank you for viewing my site, particularly this page. I've been
-              fortunate enough to have fulfilled a dream at a young age. I am
-              now married with 3 kids, and aim to use my life to their benefit
-              as best as I am able. Building a family, is something I've always
-              wanted to do, in conjunction, building in general is what drives
-              me. Whether it is woodworking, watching a garden grow or{" "}
+              I was born in Russia, moved to the amazing USA when I was 6, graduated from highschool in Columbus, OH followed by a graduation from Ohio State in 2011.<br></br><br></br>While in school I balanced multiple jobs including Panera, Yoscicks chocolates, and a financial planning internship.      
             </h4>
           </div>
         </div>
@@ -145,11 +188,7 @@ function About() {
             <div className="rect" data-aos="fade-in">
               <h1 className="about-button">Me</h1>
               <p>
-                Sint voluptate proident dolor esse aliquip aliqua non duis.
-                Labore eiusmod nulla irure id sunt veniam sit dolore incididunt
-                consequat est ad laboris. Duis nostrud et aliqua id et duis.
-                Ullamco irure eiusmod laboris est elit labore. Duis ipsum dolor
-                esse commodo consectetur Lorem ex elit reprehenderit.
+           I believe in Fatherhood, Motherhood, clear and honest  communication, and to leave a part of myself in whatever I am involved in. I pray every day that those struggling to find a spouse may do so, that those burdened without kids, merit kids. My Wife and I hope to be a springboard to our kids, to show them that to get anywhere, there should be hard work, dedication, and communication.         
               </p>
             </div>
             <div
@@ -166,11 +205,7 @@ function About() {
               </button>
               
               <p className="paragraph">
-                Sint voluptate proident dolor esse aliquip aliqua non duis.
-                Labore eiusmod nulla irure id sunt veniam sit dolore incididunt
-                consequat est ad laboris. Duis nostrud et aliqua id et duis.
-                Ullamco irure eiusmod laboris est elit labore. Duis ipsum dolor
-                esse commodo consectetur Lorem ex elit reprehenderit.
+               If I could take a week and choose what I would do on my own, I would be in my garage, building something new, fixing something broken. OR, I would be in the garden, planting, enjoying the fresh air. OR, I would be camping, I would be found lounging in a cot or with a fishing rod in hand by the lake.  
               </p>
               {display1 ? <UncontrolledCarousel items={items} /> : null}
             </div>
@@ -183,11 +218,7 @@ function About() {
               </button>
               
               <p className="paragraph">
-                Sint voluptate proident dolor esse aliquip aliqua non duis.
-                Labore eiusmod nulla irure id sunt veniam sit dolore incididunt
-                consequat est ad laboris. Duis nostrud et aliqua id et duis.
-                Ullamco irure eiusmod laboris est elit labore. Duis ipsum dolor
-                esse commodo consectetur Lorem ex elit reprehenderit.
+              I am grateful to G-d for my Wife, for our 3 amazing kids.<br></br><br></br> I am not worthy of my Wife and her amazing strength, and abilities, perhaps one day she will come to that realization also, but until then I will continue to be that lucky.<br></br><br></br> To be partnered with G-d in raising our 3 kids, is a dream come true, I only wish they grow up strong, with great values, strength to persevere, and clear minds. 
               </p>
               {display2 ? <UncontrolledCarousel items={items2} /> : null}
             </div>

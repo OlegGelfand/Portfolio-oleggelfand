@@ -246,7 +246,13 @@ img > .top-image {
   color: orange;
   box-shadow: 0 17px 8px 0 rgba(107, 107, 0, 0.2),
     0 6px 20px 28px rgba(107, 79, 79), 0 6px 2px 0 rgba(0, 0, 0, 0.5);
-  background-color: gray;
+  background-color: black;
+   
+   background-image: url("https://res.cloudinary.com/dkng1fqtz/image/upload/v1597181891/e0a90142-3f8f-4e9b-bf72-f9520de4f8bf_inkcwm.jpg");
+   /* background-size: 80%; */
+    background-position: center;
+    background-size: 50%;               
+   background-repeat: no-repeat; 
   z-index: 12;
 }
 
@@ -821,10 +827,15 @@ h4 img {
   float: right;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
+  width:30%;
+  height:25%;
 }
 .left {
   /* float:right; */
   border-top-left-radius: 50%;
+  /* margin-top:5%; */
+height:100%;
+width:40%;
   border-bottom-left-radius: 50%;
 }
 .about-title {
