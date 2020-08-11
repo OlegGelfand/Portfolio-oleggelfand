@@ -615,9 +615,9 @@ li {
 .portfolio {
   font-size: 30px;
 }
-/* .far > .res {
+.far > .res {
   visibility: hidden;
-} */
+}
 .far:hover .res {
   visibility: visible;
   border: 2px solid white;
