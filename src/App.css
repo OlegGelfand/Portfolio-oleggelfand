@@ -615,9 +615,9 @@ li {
 .portfolio {
   font-size: 30px;
 }
-.far > .res {
+/* .far > .res {
   visibility: hidden;
-}
+} */
 .far:hover .res {
   visibility: visible;
   border: 2px solid white;
@@ -626,26 +626,26 @@ li {
 .linked-in {
   color: white;
 }
-.fab > .linked-in {
+/* .fab > .linked-in {
   visibility: hidden;
-}
+} */
 .fab:hover .linked-in {
   visibility: visible;
   border: 2px solid white;
 }
 
-.portfolio > .port {
+/* .portfolio > .port {
   visibility: hidden;
   color: white;
-}
+} */
 .portfolio:hover .port {
   visibility: visible;
   border: 2px solid white;
 }
 
-.fab > .github {
+/* .fab > .github {
   visibility: hidden;
-}
+} */
 .fab:hover .github {
   visibility: visible;
   border: 2px solid white;
