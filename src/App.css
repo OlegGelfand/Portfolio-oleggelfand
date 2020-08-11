@@ -626,18 +626,18 @@ li {
 .linked-in {
   color: white;
 }
-/* .fab > .linked-in {
+.fab > .linked-in {
   visibility: hidden;
-} */
+}
 .fab:hover .linked-in {
   visibility: visible;
   border: 2px solid white;
 }
 
-/* .portfolio > .port {
+.portfolio > .port {
   visibility: hidden;
   color: white;
-} */
+}
 .portfolio:hover .port {
   visibility: visible;
   border: 2px solid white;
