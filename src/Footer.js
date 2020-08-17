@@ -12,7 +12,7 @@ function Footer() {
   return (
    <footer>
     
-      footer
+    <i class="far fa-copyright"></i> Oleg Gelfand
       </footer>
   );
 }

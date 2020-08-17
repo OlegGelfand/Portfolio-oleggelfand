@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import Skills from "./Skills";
 // import Resume from "./Resume";
+
 function NavTop() {
   
   return (
     <header>
+      <div className="top"><div className="inner-top">my name is Oleg, my friends call me Shua. Welcome to my Portfolio.</div></div>
       <div className="top-nav">
         {/* <img className = "top-image" src=""></img> */}
         <div className="top-item">

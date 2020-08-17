@@ -206,8 +206,9 @@ function About() {
               
               <p className="paragraph">
                If I could take a week and choose what I would do on my own, I would be in my garage, building something new, fixing something broken. OR, I would be in the garden, planting, enjoying the fresh air. OR, I would be camping, I would be found lounging in a cot or with a fishing rod in hand by the lake.  
-              </p>
+              
               {display1 ? <UncontrolledCarousel items={items} /> : null}
+              </p>
             </div>
             <div data-aos="zoom-in" className="rect">
            

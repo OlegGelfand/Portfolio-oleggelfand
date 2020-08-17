@@ -1,6 +1,7 @@
 import React, { createContext, useState, useEffect } from "react";
 import "./App.css";
 import Main from "./Main";
+import { BreakpointProvider } from "react-socks";
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -20,6 +21,7 @@ function App() {
   }
   return (
     <div className="header">
+      <BreakpointProvider>
       <UniversalContext.Provider
         value={{
           //anything i need for application
@@ -30,6 +32,7 @@ function App() {
       >
         <Main />
       </UniversalContext.Provider>
+      </BreakpointProvider>  
     </div>
   );
 }

@@ -15,8 +15,8 @@ function ProjectList() {
     });
   }
   return (
-    <div className="haha">
-      <div className="cookies">{renderProjects}</div>
+    <div >
+      <div className="display-projects    ">{renderProjects}</div>
     </div>
   );
 }
