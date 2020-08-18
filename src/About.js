@@ -282,7 +282,7 @@ function About() {
           <div className="grids-mobile">
             <div className="rect-mobile" data-aos="fade-in">
               <h1 className="about-button-mobile">Me</h1>
-              <p >
+              <p className="about-title-mobile">
                 I believe in Fatherhood, Motherhood, clear and honest
                 communication, and to leave a part of myself in whatever I am
                 involved in. I pray every day that those struggling to find a
