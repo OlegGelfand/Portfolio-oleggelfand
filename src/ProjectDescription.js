@@ -3,6 +3,7 @@ import { UniversalContext } from "./App";
 import Navtop from "./NavTop";
 import ProjectFooter from "./ProjectFooter";
 
+
 function ProjectDescription(props) {
   const projectContext = useContext(UniversalContext);
   const data = projectContext.projects;
@@ -21,19 +22,22 @@ function ProjectDescription(props) {
     <div className="main-details">
       <Navtop />
       <div className="project-details">
-      <div className="project-detail">
-        <div className="pic">
-          <h1><a className="url" href={url}>Click here to go to source</a></h1>
-
+        <div className="project-detail">
+          <div className="pic">
+            <h1>
+              <a className="url" href={url}>
+                Click here to go to source
+              </a>
+            </h1>
           </div>
           <div className="pic">
-        <div className="details-heading">{title}</div>
-        <img alt="10" className="images" src={image}></img>
-        <div className="details-description">{description}</div>
+            <div className="details-heading">{title}</div>
+            <img alt="10" className="images" src={image}></img>
+            <div className="details-description">{description}</div>
+          </div>
         </div>
-      </div>
 
-      <ProjectFooter />
+        <ProjectFooter />
       </div>
     </div>
   );

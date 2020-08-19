@@ -9,15 +9,17 @@ import About from "./About";
 function Home() {
   return (
     <div>
-      
+       {/* <Breakpoint medium up> */}
       <NavTop />
+      {/* </Breakpoint> */}
       <Skills />
        <Breakpoint small down>
+       <Resume />
       <ProjectList />
       <About />
  
       </Breakpoint>
-      <Resume />
+      
       <Footer />
      
     </div>

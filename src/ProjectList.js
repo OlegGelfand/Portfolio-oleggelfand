@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { UniversalContext } from "./App";
 import ProjectListItem from "./ProjectListItem";
+import { Breakpoint } from "react-socks";
+
 
 function ProjectList() {
   const projectContext = useContext(UniversalContext);
@@ -16,7 +18,12 @@ function ProjectList() {
   }
   return (
     <div >
-      <div className="display-projects    ">{renderProjects}</div>
+      <Breakpoint medium up>
+      <div className="display-projects">{renderProjects}</div>
+      </Breakpoint>
+      <Breakpoint small down>
+      <div className="display-projects-mobile">{renderProjects}</div>
+      </Breakpoint>
     </div>
   );
 }

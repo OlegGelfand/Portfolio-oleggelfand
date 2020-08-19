@@ -160,8 +160,11 @@ function About() {
 
   return (
     <div>
-      <NavTop />
+      
+      
+
       <Breakpoint medium up>
+      <NavTop />
       <div className="background-grid">
         <div className="about-background">
           <div className="about-me-text">
