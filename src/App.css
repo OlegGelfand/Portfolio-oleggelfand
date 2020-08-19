@@ -1317,7 +1317,7 @@ img > .top-image-mobile {
 .skills-mobile:nth-last-of-type(even) > h3 {
   background-color: rgba(247, 169, 12, 0.6);
   color: white;
-  margin-right: 10%;
+  /* margin-right: 10%; */
   font-size: 24px;
   letter-spacing: 10px;
 }
@@ -1327,10 +1327,12 @@ img > .top-image-mobile {
   background-color: orange;
   text-align: center;
   color: white;
+  
   border-left: 2px solid white;
 }
 .skills-mobile:nth-last-of-type(even) {
   background-color: gray;
+  
   color: white;
 }
 .skills-mobile:nth-last-of-type(5) {
@@ -1408,8 +1410,8 @@ img > .top-image-mobile {
 } 
  .flip-card-front-mobile > img {
   width: 300px;
-  /* justify-content: center; */
-  align-content:center;
+  justify-content: center;
+  
 } */
 .flip-card-back-mobile > img {
   margin-left: 10%;

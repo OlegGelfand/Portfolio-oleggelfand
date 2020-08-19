@@ -94,12 +94,14 @@ function Skills() {
           <li>Node</li>
         </ul>
       </div>
+      <div className="skills-mobile">
         <h3 className="title-mobile">Databases</h3>
         <ul>
           <li>PostreSQL</li>
           <li>MongoDB</li>
           <li>Mongoose</li>
         </ul>
+        </div>
       </div>
       <div className="skills-mobile">
         <h3 className="title-mobile">Collaboration</h3>
