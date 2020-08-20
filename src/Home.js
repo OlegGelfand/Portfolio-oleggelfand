@@ -13,9 +13,11 @@ function Home() {
       <NavTop />
       {/* </Breakpoint> */}
       <Skills />
-       <Breakpoint small down>
-       <Resume />
+      <Resume />
       <ProjectList />
+       <Breakpoint small down>
+     
+     
       <About />
  
       </Breakpoint>

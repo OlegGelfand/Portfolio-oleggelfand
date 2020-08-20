@@ -197,7 +197,7 @@ function About() {
             <div className="rect" data-aos="fade-in">
               <h1 className="about-button">Me</h1>
               <p>
-                I believe in Fatherhood, Motherhood, clear and honest
+                I believe in Parenthood, clear and honest
                 communication, and to leave a part of myself in whatever I am
                 involved in. I pray every day that those struggling to find a
                 spouse may do so, that those burdened without kids, merit kids.
@@ -286,7 +286,7 @@ function About() {
             <div className="rect-mobile" data-aos="fade-in">
               <h1 className="about-button-mobile">Me</h1>
               <p className="about-title-mobile">
-                I believe in Fatherhood, Motherhood, clear and honest
+                I believe in Parenthood, clear and honest
                 communication, and to leave a part of myself in whatever I am
                 involved in. I pray every day that those struggling to find a
                 spouse may do so, that those burdened without kids, merit kids.
@@ -299,16 +299,16 @@ function About() {
               data-aos="zoom-in"
               data-aos-duration="900"
               data-aos-easing="ease-in-out"
-              className="rect"
+              className="rect-mobile"
             >
               <button
                 onClick={!display1 ? handleHideAboutMe1 : handleDisplayAboutMe1}
               >
                 {" "}
-                <h1 className="about-button">Hobbies</h1>{" "}
+                <h1 className="about-button-mobile">Hobbies</h1>{" "}
               </button>
 
-              <p className="paragraph">
+              <p className="paragraph-mobile">
                 If I could take a week and choose what I would do on my own, I
                 would be in my garage, building something new, fixing something
                 broken. OR, I would be in the garden, planting, enjoying the
@@ -317,11 +317,11 @@ function About() {
                 {display1 ? <UncontrolledCarousel items={items} /> : null}
               </p>
             </div>
-            <div data-aos="zoom-in" className="rect">
+            <div data-aos="zoom-in" className="rect-mobile">
               <button
                 onClick={!display2 ? handleHideAboutMe2 : handleDisplayAboutMe2}
               >
-                <h1 className="about-button">Family</h1>{" "}
+                <h1 className="about-button-mobile">Family</h1>{" "}
               </button>
 
               <p className="paragraph">
