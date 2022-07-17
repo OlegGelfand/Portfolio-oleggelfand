@@ -22,21 +22,20 @@ function App() {
   return (
     <div className="header">
       <BreakpointProvider>
-      <UniversalContext.Provider
-        value={{
-          //anything i need for application
-          projects,
-          projectIndex,
-          setProjectIndex,
-        }}
-      >
-        <Main />
-      </UniversalContext.Provider>
-      </BreakpointProvider>  
+        <UniversalContext.Provider
+          value={{
+            //anything i need for application
+            projects,
+            projectIndex,
+            setProjectIndex,
+          }}
+        >
+          <Main />
+        </UniversalContext.Provider>
+      </BreakpointProvider>
     </div>
   );
 }
 
 export default App;
 export const UniversalContext = createContext();
-
